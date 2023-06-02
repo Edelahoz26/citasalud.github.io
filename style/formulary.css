@@ -1,0 +1,135 @@
+/*CONTENEDOR FORMULARIO*/
+.prueba_register{
+    margin: 25px 0px 100px 50px !important;
+    width: 825px;
+}
+
+.group1, .group2, .group3{
+    display: flex;
+    flex-direction: row;
+}
+
+.form_register h5 {
+    margin:auto !important;
+}
+
+.form_register p {
+    color: #cac9c9;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+/*FORMULARIO*/
+.div_form_register {
+    border: solid 0.5px rgb(233, 231, 231);
+    width: 400px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.botton{
+    display: flex;
+    flex-direction: column;
+}
+
+.botton a{
+    text-align: center;
+    margin-left: 450px;
+}
+
+.btn_register {
+    margin-top: 60px !important;
+    margin-left: 160px !important;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* CONTENEDOR PRINCIPAL*/
+
+.container_register {
+  width: 100%;
+}
+
+/* PRIMER CONTENEDOR */
+
+.register {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 947px;
+}
+
+/*CONTENEDOR FORMULARIO*/
+
+.form_register {
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 500px;
+  margin: 0px 0px 0px 0px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_register h5 {
+  color: #2e2d2d;
+  font-size: 20px;
+  width: 250px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-right: 298px;
+}
+
+.prueba_register{
+  border: solid 0.5px #036b7e;
+  border-radius: 0.5rem;
+  padding-top: 20px;
+  padding-right: 20px;
+
+}
+
+
+/*FORMULARIO*/
+.label_register {
+  margin: 15px 15px 15px 15px;
+  font-size: 12px;
+  display: block;
+  margin-bottom: -7px;
+  color: #b3b3b3;
+}
+
+.input_register {
+  width: 95%;
+  height: 50px;
+  margin: 15px 15px 15px 15px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  border: none;
+}
+
+/*BOTON*/
+.btn_register {
+  justify-content: center;
+  width: 510px;
+  height: 52px;
+  background-color: #036b7e;
+  font-size: 15px;
+  color: antiquewhite;
+  font-family: "Roboto", sans-serif;
+  margin-left: 22px;
+  border-radius: 0.2rem;
+  border: none;
+  margin-bottom: 20px;
+}

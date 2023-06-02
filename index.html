@@ -1,12 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+<head> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cita Salud</title>
+    <!--STYLE-->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="/style/body.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
+    <link rel="stylesheet" href="/style/modal.css" />
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <!--BOOTSTRAP-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+        <!-- ANIMATE -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
 </head>
+
 <body>
+
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="img/logov2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li> <a href="index.html">INICIO</a> </li>
+                    <li> <a href="#citaID">APARTA TU CITA</a> </li>
+                    <li><a href="#Servicios">SERVICIO</a></li>
+                    <li><a href="#cta">PREGUNTAS FRECUENTES</a></li>
+                    <li><a href="#About">SOBRE NOSOTROS</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+
+            <h1>Gestión eficiente de citas médicas en línea</h1>
+            <p> 
+               <b>¡Únete a nosotros en esta emocionante transformación y reserva tu cita médica en línea hoy mismo!
+            </b>             
+        </p>
+            <a href="http://localhost/proyecto_final/login.php" class="hero-btn">INICIAR SESION</a>
+        </div>
+
+
+    </section>
+
+    <!-- CITA -->
+    <section class="cita" id="citaID">
+        <h1>Programa tu cita</h1>
+        <p>Agenda tu cita médica ahora y obtén atención especializada para cuidar tu salud</p>
+        <div class="row">
+            <div class="cita-col" >
+               
+                <img src="img/agendar.webp">
+
+                <div class="layer">
+                    <h3><a href="formulary.html"> AGENDA TU CITA</a></h3>
+                </div>
+             </div>
+
+             <div class="cita-col">
+
+                <img src="img/pexels-nataliya-vaitkevich-5863400.jpg">
+
+                <div class="layer" >
+                    <h3> <a href="http://localhost/proyecto_final/login.php">INICIAR SESION</a></h3>
+                </div>
+             </div>
+
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1></h1>
+        <p></p>
+    </section>
+
+<!--  -->
+
+<section class="servicios" id="Servicios">
+    <h1>Consulta Medica</h1> 
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+    <div class="row">
+        
+        <div class="servicios-col">
+            <img src="img/consulta.webp">
+            <h3>Consulta</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quam cupiditate adipisci soluta tempore dicta sint</p>
+        </div>
+
+        <div class="servicios-col">
+            <img src="img/exameneslab.webp">
+            <h3>Examenes de laboratorio</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quam cupiditate adipisci soluta tempore dicta sint</p>
+        </div>
+        <div class="servicios-col">
+            <img src="img/servicio.webp">
+            <h3>Servicios</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quam cupiditate adipisci soluta tempore dicta sint</p>
+        </div>
+        <div class="servicios-col">
+            <img src="img/especializados.webp">
+            <h3>Especialistas</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quam cupiditate adipisci soluta tempore dicta sint</p>
+        </div>
+    </div>
+</section>
+
+<!-- Sobre nosotros -->
+
+<section class="About-us" id="About"> 
+
+    <div class="About-us-Container">
+        <div class="cuadro">
+            <h1 class="animate__animated animate__rubberBand">Mision</h1>
+            <br>
+            <p>Nuestra misión en CitaSalud es revolucionar la forma en que se gestionan las citas médicas, ofreciendo una plataforma confiable y fácil de usar que permita a los pacientes programar, modificar y cancelar sus citas de manera eficiente y conveniente. Nos comprometemos a mejorar la accesibilidad a la atención médica, optimizando los tiempos de espera y maximizando la disponibilidad de citas para garantizar una mejor experiencia del paciente.
+
+                Buscamos ser un aliado confiable tanto para los pacientes como para los profesionales de la salud, brindando una solución integral que simplifique la gestión de citas y contribuya a una atención médica de calidad. Nuestra misión se basa en la innovación tecnológica y en comprender las necesidades y expectativas de nuestros usuarios, adaptando constantemente nuestra plataforma para ofrecer la mejor experiencia posible</p>
+        </div>
+
+    </div>
+
+    <div class="About-us-Container2">
+        <div class="cuadro">
+            <h1 class="animate__animated animated animate__swing">Vision</h1>
+            <br>
+            <p>Nuestra visión en CitaSalud es convertirnos en la plataforma líder en la gestión de citas médicas en línea. Nos esforzamos por ser reconocidos como el referente en el sector de la salud, destacándonos por nuestra usabilidad, confiabilidad y contribución a la mejora de la atención médica.
+
+                Buscamos ser el socio preferido tanto para los pacientes como para los profesionales de la salud, brindando una solución integral y eficiente que optimice la gestión de citas y mejore la calidad de los servicios de salud. Nuestra visión implica estar a la vanguardia de la tecnología, anticipándonos a las necesidades cambiantes del sector y ofreciendo constantemente nuevas funcionalidades y mejoras que superen las expectativas de nuestros usuarios.
+                
+                En resumen, nuestra misión es simplificar y optimizar la gestión de citas médicas, mejorando la accesibilidad y la experiencia del paciente, mientras que nuestra visión es convertirnos en líderes en este ámbito, siendo reconocidos por nuestra calidad, innovación y aporte a la atención médica de calidad.</p>
+        </div>
+
+    </div>
+</section>
+
+   <!--    -->
+
+   
+   <section class="cta" id="cta">
+    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+
     
+    <!-- Footer  -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptate deleniti tenetur similique. <br> Iure e, accusamus voluptatum, consectetur amet quidem eos fugit voluptatibus ullam sequi voluptates autem nam ducimus dignissimos.</p>
+        <div class="icons">
+
+            
+            <i class="fa-brands fa-facebook-f" ></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+
+        </div>
+
+        <p>Made with <i class="fa fa-heart-o"></i> by CitaSalud</p>
+    </section>
+
+
+    <!----JAVA SCRIPT FOR TOGGLE MENU--->
+    <script>
+
+        let navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+             
+        }
+    </script>
+
+
 </body>
+
 </html>
